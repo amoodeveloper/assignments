@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <style>
+        h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+}
+    </style>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>FormSubmit Demo</h1>
+        <form method="POST" action="https://formsubmit.co/your@email.com" enctype="multipart/form-data">
+            <input type="email" name="email" placeholder="Your email">
+            <textarea name="message" placeholder="Details of your problem"></textarea>
+            <input type="file" name="attachment" accept="image/png, image/jpeg">
+            <button type="submit">Send Test</button>
+        </form>
+    </div>
+
+</body>
+</html>
